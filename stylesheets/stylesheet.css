@@ -96,7 +96,7 @@ header h2 {
 }
 
 #inner-container:hover {
-  margin: 80%;
+  margin: 20% 20% 20% 20%;
   background: #000;
   opacity: .8
 }
