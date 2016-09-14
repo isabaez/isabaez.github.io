@@ -89,7 +89,7 @@ header h2 {
 }
 
 #container {
-  position: absolute;
+  position: relative;
   margin-top: 100px;
   margin-left: 100px;
   margin-bottom: 100px;
