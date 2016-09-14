@@ -97,6 +97,8 @@ header h2 {
   bottom: 100px;
   right: 100px;
   background-color: #000;
+  border: none;
+  border-radius: 15px;
   opacity; .5;
 }
 
