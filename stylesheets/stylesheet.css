@@ -90,14 +90,12 @@ header h2 {
 
 .container {
   position: absolute;
-  height: 100%;
   top: 100px;
   left: 100px;
   bottom: 100px;
   right: 100px;
   background-color: #15181C;
   border: none;
-  border-radius: 15px;
   opacity: .90;
 }
 
