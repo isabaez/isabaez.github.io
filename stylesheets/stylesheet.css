@@ -60,10 +60,10 @@ body {
 }
 
 a {
-  color: #d5000d;
+  color: #FFF;
 }
 a:hover {
-  color: #c5000c;
+  color: blue;
 }
 
 header {
