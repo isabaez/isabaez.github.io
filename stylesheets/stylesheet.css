@@ -54,7 +54,7 @@ body {
   line-height: 1.5;
   color: #FFF;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background-image: url(../images/office.jpg);
+  background-image: url(../images/coffee.jpg);
   background-repeat:no-repeat;
   background-size: cover;
   height: 100vh;
@@ -324,16 +324,6 @@ footer a:hover {
   header {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-    font-size: 1em;
-    line-height: 1.5;
-    color: #6d6d6d;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    background-image: url(../images/highlight-bg.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
   }
 }
 
