@@ -90,15 +90,23 @@ header h2 {
 }
 
 #inner-container {
-  margin: 20% 20% 20% 20%;
-  background: #000;
-  opacity: .7
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50;
+  background-color: black;
+  opacity; .9;
 }
 
 #inner-container:hover {
-  margin: 20% 20% 20% 20%;
-  background: #000;
-  opacity: .9
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  bottom: 50px;
+  right: 50;
+  background-color: black;
+  opacity; .95;
 }
 
 a.button {
