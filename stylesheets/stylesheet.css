@@ -88,7 +88,7 @@ header h2 {
 }
 
 #container {
-  min-height: 595px;
+  height: 100%;
 }
 
 #inner-container {
