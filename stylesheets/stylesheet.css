@@ -56,7 +56,7 @@ body {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background-image: url(../images/office.jpg);
   background-repeat:no-repeat;
-  background-size: 100vh;
+  background-size: cover;
 }
 
 a {
