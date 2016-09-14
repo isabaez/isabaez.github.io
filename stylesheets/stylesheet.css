@@ -86,7 +86,7 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(../images/background.jpg) 50% 0 no-repeat;
 }
 
 #inner-container {
@@ -97,16 +97,6 @@ header h2 {
   right: 100px;
   background-color: #3A3C3D;
   opacity; .85;
-}
-
-#inner-container:hover {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  bottom: 50px;
-  right: 50;
-  background-color: #3A3C3D;
-  opacity; .95;
 }
 
 a.button {
