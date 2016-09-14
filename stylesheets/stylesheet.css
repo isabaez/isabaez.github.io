@@ -84,6 +84,23 @@ header h2 {
   letter-spacing: -1px;
 }
 
+#container {
+  min-height: 595px;
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+}
+
+#inner-container {
+  margin: 80%;
+  background: #000;
+  opacity: .5
+}
+
+#inner-container:hover {
+  margin: 80%;
+  background: #000;
+  opacity: .8
+}
+
 a.button {
   display: block;
   float: left;
@@ -293,11 +310,6 @@ footer a {
 }
 footer a:hover {
   color: #444;
-}
-
-#inner-container {
-  margin: 40px;
-  color: #000;
 }
 
 /* #Media Queries
