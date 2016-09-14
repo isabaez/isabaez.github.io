@@ -312,6 +312,7 @@ footer a:hover {
 .link {
   padding: 20px 20px 20px 20px;
   background-color: #15181C;
+  border-radius: 5px;
   opacity: .90;
 }
 
