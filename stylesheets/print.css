@@ -73,12 +73,6 @@ header h2 {
   color: #aaa;
   letter-spacing: -1px;
 }
-#downloads {
-  display: none;
-}
-#main_content {
-  padding-top: 20px;
-}
 
 code, pre {
   margin-bottom: 30px;
@@ -213,16 +207,3 @@ footer {
 footer a {
   color: #666;
 }
-
-/* MISC */
-.clearfix:after {
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  content: '.';
-}
-
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
