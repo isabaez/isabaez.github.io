@@ -22,7 +22,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	border: 0;
   text-align: center;
-  height: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -90,11 +89,11 @@ header h2 {
 
 #container {
   position: relative;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-bottom: 100px;
-  margin-right: 100px;
-  background-color: #15181C;
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+  color: #15181C;
   border: none;
   border-radius: 15px;
   opacity: .90;
@@ -233,7 +232,7 @@ h2 {
   margin-bottom: 8px;
   font-size: 22px;
   font-weight: bold;
-  color: #303030;
+  color: #aaa;
 }
 
 h3 {
