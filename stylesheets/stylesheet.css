@@ -22,8 +22,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	border: 0;
   text-align: center;
-  height: 100%;
-  width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
