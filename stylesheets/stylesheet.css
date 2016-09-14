@@ -98,7 +98,7 @@ header h2 {
   letter-spacing: -1px;
 }
 
-#container {
+.container {
   position: absolute;
   top: 100px;
   left: 100px;
