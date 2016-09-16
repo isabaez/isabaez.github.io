@@ -310,9 +310,8 @@ footer a:hover {
 }
 
 .link {
-  padding: 20px 20px 20px 20px;
+  padding: 15px 15px 15px 15px;
   background-color: #15181C;
-  border-radius: 3px;
   opacity: .90;
 }
 
