@@ -299,12 +299,16 @@ footer a:hover {
 }
 
 #intro {
-  margin: auto;
+  font-family: 'Verdana', Geneva, sans-serif;
+  font-size: 350%;
+  margin-top: 33vh;
 }
 
-/*#intro-desc {
-  margin: center;
-}*/
+#intro-desc {
+  font-family: 'Verdana', Geneva, sans-serif;
+  font-size: 250%;
+  margin-top: 40vh;
+}
 
 #container-left {
   position: absolute;
