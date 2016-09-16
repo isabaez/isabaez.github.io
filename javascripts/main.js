@@ -1,25 +1,19 @@
 $(document).ready(function() {
 
-	$('#home').click(function() {
-		$('#about-container').toggle(false)
-		$('#connect-container').toggle(false)
-		$('#home-container').fadeIn()
+	$('#about').click(function() {
+		$('#container-left').fadeIn("slow")
 	})
 
-	$('#about').click(function() {
-		$('#home-container').toggle(false)
-		$('#connect-container').toggle(false)
-		$('#about-container').fadeIn()
+	$('#projects').click(function() {
+		$('#container-mid').fadeIn("slow")
 	})
 
 	$('#connect').click(function() {
-		$('#home-container').toggle(false)
-		$('#about-container').toggle(false)
-		$('#connect-container').fadeIn()
+		$('#container-right').fadeIn("slow")
 	})
 
 	$(window).on('blur', function() {
-		$("#title").text("Miss you :(")
+		$("#title").text("Come back soon!")
 	})
 
 	$(window).on('focus', function() {

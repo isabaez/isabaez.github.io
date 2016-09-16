@@ -298,7 +298,29 @@ footer a:hover {
   color: #444;
 }
 
-.container {
+#container-left {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+  background-color: #15181C;
+  border: none;
+  opacity: .90;
+}
+
+#container-mid {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+  background-color: #15181C;
+  border: none;
+  opacity: .90;
+}
+
+#container-right {
   position: absolute;
   top: 100px;
   left: 100px;
