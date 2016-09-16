@@ -302,9 +302,9 @@ footer a:hover {
   margin: auto;
 }
 
-#intro-desc {
-  position: center;
-}
+/*#intro-desc {
+  margin: center;
+}*/
 
 #container-left {
   position: absolute;
