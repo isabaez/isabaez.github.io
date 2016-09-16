@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	console.log("Ready!")
+	$('#home-container').fadeIn("slow")
 
 	$('#home').click(function() {
 		$('#about-container').toggle(false)
