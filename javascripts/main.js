@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 	$('#about').click(function() {
-		$('#intro').toggle(false);
-		$('#intro-desc').toggle(false)
+		$('#intro').fadeOut();
+		$('#intro-desc').fadeOut()
 		$('#container-left').fadeIn("slow")
 	})
 
