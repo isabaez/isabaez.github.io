@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('#about').click(function() {
-		$('#intro').fadeOut();
+		$('#intro').fadeOut()
 		$('#intro-desc').fadeOut()
 		$('#container-left').fadeIn("slow")
 	})
@@ -13,7 +13,7 @@ $(document).ready(function() {
 	})
 
 	$('#connect').click(function() {
-		$('#intro').toggle(false);
+		$('#intro').toggle(false)
 		$('#intro-desc').toggle(false)
 		$('#container-right').fadeIn("slow")
 	})
