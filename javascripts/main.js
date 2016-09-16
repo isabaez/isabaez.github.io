@@ -7,7 +7,7 @@ $(document).ready(function() {
 	})
 
 	$('#projects').click(function() {
-		$('#intro').toggle(false);
+		$('#intro').toggle(false)
 		$('#intro-desc').toggle(false)
 		$('#container-mid').fadeIn("slow")
 	})
