@@ -13,10 +13,10 @@ $(document).ready(function() {
 	})
 
 	$(window).on('blur', function() {
-		$("#title").text("Come back soon!")
+		document.title = "Come back soon!";
 	})
 
 	$(window).on('focus', function() {
-		$("#title").text("Isaias Uriel Baez")
+		document.title = "Isaias Uriel Baez";
 	})
 })
