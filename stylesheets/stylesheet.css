@@ -298,6 +298,14 @@ footer a:hover {
   color: #444;
 }
 
+#intro {
+  margin: auto;
+}
+
+#intro-desc {
+  position: center;
+}
+
 #container-left {
   position: absolute;
   top: 100px;
