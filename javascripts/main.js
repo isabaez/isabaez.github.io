@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	$('#home-container').fadeIn("slow")
 
 	$('#home').click(function() {
 		$('#about-container').toggle(false)
@@ -17,5 +16,13 @@ $(document).ready(function() {
 		$('#home-container').toggle(false)
 		$('#about-container').toggle(false)
 		$('#connect-container').fadeIn()
+	})
+
+	$(window).on('blur', function() {
+		$("#title").text("Miss you :(")
+	})
+
+	$(window).on('focus', function() {
+		$("#title").text("Isaias Uriel Baez")
 	})
 })
