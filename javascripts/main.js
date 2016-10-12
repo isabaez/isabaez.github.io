@@ -1,23 +1,5 @@
 $(document).ready(function() {
 
-	$('#about').click(function() {
-		$('#intro').fadeOut()
-		$('#intro-desc').fadeOut()
-		$('#container-left').fadeIn("slow")
-	})
-
-	$('#projects').click(function() {
-		$('#intro').toggle(false)
-		$('#intro-desc').toggle(false)
-		$('#container-mid').fadeIn("slow")
-	})
-
-	$('#connect').click(function() {
-		$('#intro').toggle(false)
-		$('#intro-desc').toggle(false)
-		$('#container-right').fadeIn("slow")
-	})
-
 	$(window).on('blur', function() {
 		document.title = "Come back soon!";
 	})
@@ -26,3 +8,27 @@ $(document).ready(function() {
 		document.title = "Isaias Uriel Baez";
 	})
 })
+
+$("#about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about-section").offset().top - 50
+    }, 1000);
+});
+
+$("#projects").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects-section").offset().top - 50
+    }, 1500);
+});
+
+$("#contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-section").offset().top - 50
+    }, 1500);
+});
+
+$("#brand").click(function() {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 1500);
+});
