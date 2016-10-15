@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <title>Isaias Uriel Baez</title>
-  </head>
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            <a class="navbar-brand" href="#" id="brand">iubaez</a>
+        <title>Isaias Uriel Baez</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+            <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#" id="brand">iubaez</a>
+                </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" id="about">About</a></li>
+                        <li><a href="#" id="projects">Projects</a></li>
+                        <li><a href="#" id="contact">Contact</a></li>
+                        <li><a href="./resume.pdf" target="_blank" id="resume">Resume</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <header id="landing">
+            <div id="intro">Isaias Uriel Baez</div>
+            <div id="intro-desc">
+                Full-Stack Developer
+            <div id="linkwrap">
+                <a class="link hvr-float" id="about">About</a>
+                <a class="link hvr-float" id="projects" href="#">Projects</a>
+                <a class="link hvr-float" id="contact" href="#">Contact</a>
+                <a class="link hvr-float" id="resume" href="./resume.pdf" target="_blank">Resume</a>
             </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" id="about">About</a></li>
-                    <li><a href="#" id="projects">Projects</a></li>
-                    <li><a href="#" id="contact">Contact</a></li>
-                    <li><a href="./resume.pdf" target="_blank" id="resume">Resume</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-    <header id="landing">
-        <div id="intro">Isaias Uriel Baez</div>
-        <div id="intro-desc">Full-Stack Developer</div>
-    </header>
-    <div class="container info" id="about-section">
-        <h1 class="section-header">About</h1>
-        <img id="profile-pic" src="./images/profile-min.jpg"></img>
-        <h2>I'm a 20-year-old Full-Stack Developer currently living and studying in Philadelphia at the University of Pennsylvania. I'm a first generation Mexican-American originally from Dallas, Tx aspiring to become a professional software engineer.</h2>
-    </div>
-    <div class="container info" id="projects-section">
-        <h1 class="section-header">Projects</h1>
-        <h2>These are the projects I've worked on. Vet it, Evie, other ones maybe.</h2>
-    </div>
-    <div class="container info" id="contact-section">
-        <h1 class="section-header">Contact</h1>
-        <h2>You can reach me through email, linkedin, facebook, twitter, and instagram.</h2>
-    </div>
-</body>
+          </div>
+        </header>
+        <div class="container info" id="about-section">
+            <div class="section-header">About</div>
+            <img src="./images/profile-min.jpg" id="profile-pic"></img>
+            <div id="bio">I'm a 20-year-old Full-Stack Developer currently living and studying in Philadelphia at the University of Pennsylvania. </div>
+        </div>
+        <div class="container info" id="projects-section">
+            <h1 class="section-header">Projects</h1>
+            <h2>These are the projects I've worked on. Vet it, Evie, other ones maybe.</h2>
+        </div>
+        <div class="container info" id="contact-section">
+            <h1 class="section-header">Contact</h1>
+            <h2>You can reach me through email, linkedin, facebook, twitter, and instagram.</h2>
+        </div>
+    </body>
 </html>
 
 <script type="text/javascript" src="javascripts/main.js"></script>

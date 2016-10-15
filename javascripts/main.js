@@ -7,6 +7,14 @@ $(document).ready(function() {
 	$(window).on('focus', function() {
 		document.title = "Isaias Uriel Baez";
 	})
+  
+  	$(window).scroll(function(){                       
+  		if ($(this).scrollTop() > $(window).height() - 150) {
+			$('#navbar').fadeIn(500);
+		} else {
+			$('#navbar').fadeOut(500);
+		}
+	});
 })
 
 $("#about").click(function() {
