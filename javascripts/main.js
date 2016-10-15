@@ -35,6 +35,24 @@ $("#contact").click(function() {
     }, 1500);
 });
 
+$("#about-nav").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about-section").offset().top - 50
+    }, 1000);
+});
+
+$("#projects-nav").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects-section").offset().top - 50
+    }, 1500);
+});
+
+$("#contact-nav").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact-section").offset().top - 50
+    }, 1500);
+});
+
 $("#brand").click(function() {
     $('html, body').animate({
         scrollTop: 0
