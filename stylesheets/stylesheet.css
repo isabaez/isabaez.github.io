@@ -332,8 +332,6 @@ footer a:hover {
 .navbar-default {
   opacity: .85;
   display: none;
-  background-color: black!important;
-  border-color:black!important;
 }
 
 #linkwrap {
@@ -366,6 +364,10 @@ footer a:hover {
   transform: translateY(-8px);
   border-color: white;
   background-color: coral;
+}
+
+#email, #github, #linkedin, #facebook, #twitter {
+  color: black;
 }
 
 /* #Media Queries
