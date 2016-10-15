@@ -290,6 +290,10 @@ footer a:hover {
   color: #444;
 }
 
+#brand {
+  color:white;
+}
+
 #intro {
   font-family: 'Verdana', Geneva, sans-serif;
   font-size: 350%;
@@ -326,8 +330,10 @@ footer a:hover {
 }
 
 .navbar-default {
-  opacity: .8;
+  opacity: .85;
   display: none;
+  background-color: black;
+  border-color:black;
 }
 
 #linkwrap {
