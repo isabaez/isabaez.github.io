@@ -62,7 +62,7 @@ a {
   color: #000;
 }
 a:hover {
-  color: coral;
+  color: white;
 }
 
 header h1 {
@@ -359,6 +359,7 @@ footer a:hover {
 .hvr-float:hover {
   transform: translateY(-8px);
   border-color: white;
+  background-color: coral;
 }
 
 /* #Media Queries
