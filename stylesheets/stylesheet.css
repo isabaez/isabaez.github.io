@@ -62,7 +62,7 @@ a {
   color: #000;
 }
 a:hover {
-  color: white;
+  color: white!important;
 }
 
 header h1 {
