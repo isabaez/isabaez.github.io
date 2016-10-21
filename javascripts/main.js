@@ -20,7 +20,7 @@ $(document).ready(function() {
 $("#about").click(function() {
     $('html, body').animate({
         scrollTop: $("#about-section").offset().top - 50
-    }, 1000);
+    }, 1500);
 });
 
 $("#projects").click(function() {
@@ -38,7 +38,7 @@ $("#contact").click(function() {
 $("#about-nav").click(function() {
     $('html, body').animate({
         scrollTop: $("#about-section").offset().top - 50
-    }, 1000);
+    }, 1500);
 });
 
 $("#projects-nav").click(function() {
