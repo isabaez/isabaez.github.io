@@ -361,7 +361,7 @@ footer a:hover {
   transition-property: transform;
   transition-timing-function: ease-out;
 }
-.hvr-float:hover {
+.hvr-float:hover, .hvr-float:active {
   transform: translateY(-8px);
   border-color: white;
   background-color: coral;
