@@ -18,6 +18,8 @@ body {
 
 .menu>div:nth-child(1) {
   height: 60%;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
 
 .menu>div:nth-child(2) {
@@ -34,7 +36,6 @@ body {
   background-image: url(../images/profile-min.jpg);
   background-size: cover;
   background-repeat:no-repeat;
-  margin-top: 10px;
 }
 
 .about {
