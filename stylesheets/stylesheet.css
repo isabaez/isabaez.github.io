@@ -6,12 +6,13 @@ body {
 
 .menu {
   position: absolute;
-  top: 100px;
-  bottom: 100px;
-  left: 200px;
-  right: 200px;
+  top: 15vh;
+  bottom: 15vh;
+  left: 25vh;
+  right: 25vh;
   background: white;
   font-family: 'Open Sans', sans-serif;
+  color: #4c4c4c;
   font-size: 150%;
   border-radius:15px;
 }
@@ -79,11 +80,8 @@ body {
 /* #Media Queries
 ================================================== */
 
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
+/* Smaller than 855 */
+@media only screen and (max-width: 855px) { }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
