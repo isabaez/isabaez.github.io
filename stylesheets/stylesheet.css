@@ -84,14 +84,14 @@ body {
 @media only screen and (max-width: 855px) { 
   .menu {
     position: absolute;
-    top: 15vh;
-    bottom: 15vh;
+    top: 22vh;
+    bottom: 22vh;
     left: 10vh;
     right: 10vh;
     background: white;
     font-family: 'Open Sans', sans-serif;
     color: #4c4c4c;
-    font-size: 100%;
+    font-size: 120%;
     border-radius:15px;
   }
 
@@ -99,13 +99,6 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 150%;
-  }
-
-  .nav a, .social a {
-    display: inline-block;
-    text-decoration: none;
-    margin: 10px;
-    color: #4c4c4c;
   }
 }
 
