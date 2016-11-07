@@ -81,14 +81,24 @@ body {
 ================================================== */
 
 /* Smaller than 855 */
-@media only screen and (max-width: 855px) { }
+@media only screen and (max-width: 855px) { 
+  .menu {
+    position: absolute;
+    top: 15vh;
+    bottom: 15vh;
+    left: 25vh;
+    right: 25vh;
+    background: grey;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4c4c;
+    font-size: 150%;
+    border-radius:15px;
+  }
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+  
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
