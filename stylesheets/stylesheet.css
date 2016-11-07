@@ -8,8 +8,8 @@ body {
   position: absolute;
   top: 100px;
   bottom: 100px;
-  left: 150px;
-  right: 150px;
+  left: 200px;
+  right: 200px;
   background: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 150%;
@@ -17,29 +17,29 @@ body {
 }
 
 .menu>div:nth-child(1) {
-  padding: 25px;
-  height: 33vh;
+  height: 60%;
 }
 
 .menu>div:nth-child(2) {
-  padding: 25px;
-  height: 33vh;
+  height: 40%;
 }
 
 .pic {
   position: relative;
   left: 50%;
-  margin-left: -100px;
-  width: 200px;
-  height: 200px;
+  margin-left: -75px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
   background-image: url(../images/profile-min.jpg);
   background-size: cover;
   background-repeat:no-repeat;
+  margin-top: 10px;
 }
 
 .about {
-  margin: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 150%;
 }
 
