@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 	$("#projects").click(function() {
 		$(".projects").fadeToggle()
-		console.log('clicked')
 	})
 
 	$(".fa-times").click(function() {

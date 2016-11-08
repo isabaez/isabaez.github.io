@@ -78,11 +78,10 @@ body {
 }
 
 .fa-times {
-  display: block;
   float:right;
   color: white;
-  height: 25px;
-  width: 25px;
+  font-size: 225%;
+  margin: 5px;
 }
 
 .projects {
@@ -98,9 +97,9 @@ body {
 }
 
 .container {
-  color: white;
-  margin: 25px;
-  padding: 10px;
+  color: #43B07E;
+  margin: 8vh;
+  padding: 5vh;
 }
 
 .projects>.container>div {
@@ -114,35 +113,30 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 100px;
-  background: green;
 }
 
 #vetit-screenshot1 {
   background-image: url(../images/vetit1.png);
   background-size: cover;
   background-repeat:no-repeat;
-  opacity: 1;
 }
 
 #vetit-screenshot2 {
   background-image: url(../images/vetit2.png);
   background-size: cover;
   background-repeat:no-repeat;
-  opacity: 1;
 }
 
 #evie-screenshot1 {
   background-image: url(../images/evie1.png);
   background-size: cover;
   background-repeat:no-repeat;
-  opacity: 1;
 }
 
 #evie-screenshot2 {
   background-image: url(../images/evie2.png);
   background-size: cover;
   background-repeat:no-repeat;
-  opacity: 1;
 }
 
 /* #Media Queries
