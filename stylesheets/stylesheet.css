@@ -120,7 +120,7 @@ body {
 }
 
 /* Shorter than 700px */
-@media (orientation: landscape) {
+/*@media (orientation: landscape) {
   .menu {
     position: absolute;
     top: 22vh;
@@ -158,7 +158,7 @@ body {
     margin: 0 20px 20px 20px;
     color: #4c4c4c;
   }
-}
+}*/
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
