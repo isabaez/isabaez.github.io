@@ -118,7 +118,7 @@ body {
   width: 49%;
 }
 
-.screenshot>img {
+.screenshot>a>img {
   width: 100%;
 }
 
