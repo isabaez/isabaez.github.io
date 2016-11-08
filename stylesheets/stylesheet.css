@@ -97,12 +97,12 @@ body {
 .container {
   color: #43B07E;
   margin: 8vh;
-  padding: 5vh;
+  padding: 0 5vh 5vh 5vh;
 }
 
 .title {
   text-align: center;
-  font-size: 150%;
+  font-size: 300%;
   font-weight:bold;
   margin-right: -5px;
 }
