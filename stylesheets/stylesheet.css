@@ -132,6 +132,18 @@ body {
   opacity: .8;
 }
 
+.enlarge {
+  position:absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: green;
+  color: white;
+}
+
+#spotlight {
+}
+
 /* #Media Queries
 ================================================== */
 

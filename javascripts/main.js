@@ -12,7 +12,17 @@ $(document).ready(function() {
 		$(".projects").fadeToggle(1000)
 	})
 
-	$(".fa-times").click(function() {
-		$(".projects").fadeToggle(1000)
+	$(".projects>div>a>.fa-times").click(function() {
+	  	$(".projects").fadeToggle(1000)
+	})
+
+	$(".screenshot>a").click(function(elem) {
+		var enlarge_src = $(elem.target).attr('src')
+		$(".enlarge").fadeToggle(500)
+		$("#spotlight").attr('src', enlarge_src)
+	})
+
+	$(".enlarge>div>a>.fa-times").click(function() {
+	  	$(".enlarge").fadeToggle(500)
 	})
 })
