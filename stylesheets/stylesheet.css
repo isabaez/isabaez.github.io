@@ -102,26 +102,28 @@ body {
   }
 }
 
-/* Mobile view */
-/*@media (max-width: 420px) { 
+@media (max-width: 580px) { 
   .menu {
-    position: absolute;
-    top: 20vh;
-    bottom: 20vh;
-    left: 10vh;
-    right: 10vh;
+    top: 15vh;
+    bottom: 15vh;
+    left: 5vh;
+    right: 5vh;
     background: white;
-    font-family: 'Open Sans', sans-serif;
-    color: #4c4c4c;
-    font-size: 250%;
-    border-radius:15px;
+    font-size: 100%;
   }
 
-  .menu>div:nth-child(2) {
-    height: 45%;
-    font-size: 120%;
+  .pic {
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
   }
-}*/
+
+  .nav a, .social a {
+    margin: 0 15px 15px 15px;
+    color: #4c4c4c;
+  }
+}
 
 /* Shorter than 700px */
 @media only screen and (max-height: 700px) {
