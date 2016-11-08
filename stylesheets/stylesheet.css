@@ -121,24 +121,28 @@ body {
   background-image: url(../images/vetit1.png);
   background-size: cover;
   background-repeat:no-repeat;
+  opacity: 1;
 }
 
 #vetit-screenshot2 {
   background-image: url(../images/vetit2.png);
   background-size: cover;
   background-repeat:no-repeat;
+  opacity: 1;
 }
 
 #evie-screenshot1 {
   background-image: url(../images/evie1.png);
   background-size: cover;
   background-repeat:no-repeat;
+  opacity: 1;
 }
 
 #evie-screenshot2 {
   background-image: url(../images/evie2.png);
   background-size: cover;
   background-repeat:no-repeat;
+  opacity: 1;
 }
 
 /* #Media Queries
