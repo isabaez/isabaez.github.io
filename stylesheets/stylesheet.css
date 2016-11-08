@@ -113,11 +113,9 @@ body {
 
 .projects>.container>div>.screenshot{
   display: inline-block;
-  margin-left: 30px;
-  margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 30%;
+  width: 49%;
 }
 
 /* #Media Queries
