@@ -81,7 +81,7 @@ body {
 ================================================== */
 
 /* Skinnier than 855px */
-@media only screen and (max-width: 855px) { 
+@media (max-width: 855px) { 
   .menu {
     position: absolute;
     top: 22vh;
@@ -103,7 +103,7 @@ body {
 }
 
 /* Mobile view */
-@media only screen and (max-width: 420px) { 
+/*@media (max-width: 420px) { 
   .menu {
     position: absolute;
     top: 20vh;
@@ -121,7 +121,7 @@ body {
     height: 45%;
     font-size: 120%;
   }
-}
+}*/
 
 /* Shorter than 700px */
 @media only screen and (max-height: 700px) {
