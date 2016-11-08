@@ -89,8 +89,8 @@ body {
   top: 0;
   left: 0;
   background: black;
-  width: 100%;
   height: 100%;
+  width: 100%;
   overflow:scroll;
 }
 
@@ -142,6 +142,8 @@ body {
 }
 
 #spotlight {
+  width: 80%;
+  margin-top: 20vh;
 }
 
 /* #Media Queries
