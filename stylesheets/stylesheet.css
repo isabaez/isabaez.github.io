@@ -102,10 +102,11 @@ body {
   }
 }
 
+/* Mobile view */
 @media (max-width: 580px) { 
   .menu {
-    top: 15vh;
-    bottom: 15vh;
+    top: 10vh;
+    bottom: 10vh;
     left: 5vh;
     right: 5vh;
     background: white;
@@ -126,8 +127,19 @@ body {
 }
 
 /* Shorter than 700px */
-@media only screen and (max-height: 700px) {
-  
+@media only screen and (max-height: 830px) {
+  .menu {
+    position: absolute;
+    top: 22vh;
+    bottom: 22vh;
+    left: 10vh;
+    right: 10vh;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4c4c;
+    font-size: 120%;
+    border-radius: 15px;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
