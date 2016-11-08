@@ -120,7 +120,7 @@ body {
 }
 
 /* Shorter than 700px */
-@media only screen and (max-height: 700px) {
+@media (orientation: landscape) {
   .menu {
     position: absolute;
     top: 22vh;
