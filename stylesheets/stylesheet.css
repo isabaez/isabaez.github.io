@@ -1,6 +1,5 @@
 body {
   background: #43B07E;
-  height: 100vh;
   text-align: center;
 }
 
@@ -78,7 +77,7 @@ body {
 }
 
 .fa-times {
-  float:right;
+  float: right;
   color: white;
   font-size: 225%;
   margin: 5px;
@@ -86,7 +85,7 @@ body {
 
 .projects {
   position: absolute;
-  display:block;
+  display:inline-block;
   top: 0;
   left: 0;
   background: black;
@@ -101,41 +100,24 @@ body {
   padding: 5vh;
 }
 
+.title {
+  font-size: 150%;
+  font-weight:bold;
+  margin-right: -5px;
+}
+
 .projects>.container>div {
-  display: block;
+  font-size: 100%;
   text-align: left;
 }
 
 .projects>.container>div>.screenshot{
+  display: inline-block;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 100px;
-}
-
-#vetit-screenshot1 {
-  background-image: url(../images/vetit1.png);
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-
-#vetit-screenshot2 {
-  background-image: url(../images/vetit2.png);
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-
-#evie-screenshot1 {
-  background-image: url(../images/evie1.png);
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-
-#evie-screenshot2 {
-  background-image: url(../images/evie2.png);
-  background-size: cover;
-  background-repeat:no-repeat;
+  width: 30%;
 }
 
 /* #Media Queries
