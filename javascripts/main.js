@@ -9,11 +9,11 @@ $(document).ready(function() {
 	})
 
 	$("#projects").click(function() {
-		$(".projects").toggle()
+		$(".projects").fadeToggle()
 		console.log('clicked')
 	})
 
 	$(".fa-times").click(function() {
-		$(".projects").toggle()
+		$(".projects").fadeToggle()
 	})
 })
