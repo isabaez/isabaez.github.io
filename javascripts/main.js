@@ -8,3 +8,11 @@ $(document).ready(function() {
 		document.title = "Isaias Uriel Baez";
 	})
 })
+
+$("#projects").click(function() {
+	$(".projects").toggle()
+})
+
+$(".fa-times").click(function() {
+	$(".projects").toggle()
+})

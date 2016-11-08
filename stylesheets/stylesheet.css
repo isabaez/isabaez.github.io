@@ -77,6 +77,71 @@ body {
   transition-timing-function: ease-out;
 }
 
+.fa-times {
+  display: block;
+  float:right;
+  color: white;
+  height: 25px;
+  width: 25px;
+  background: green;
+}
+
+.projects {
+  position: absolute;
+  display:block;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: .90;
+  width: 100%;
+  height: 100%;
+  overflow:scroll;
+}
+
+.container {
+  color: white;
+  margin: 25px;
+  padding: 10px;
+}
+
+.projects>.container>div {
+  display: block;
+  text-align: left;
+}
+
+.projects>.container>div>.screenshot{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  background: green;
+}
+
+#vetit-screenshot1 {
+  background-image: url(../images/vetit1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+#vetit-screenshot2 {
+  background-image: url(../images/vetit2.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+#evie-screenshot1 {
+  background-image: url(../images/evie1.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+#evie-screenshot2 {
+  background-image: url(../images/evie2.png);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
 /* #Media Queries
 ================================================== */
 
