@@ -9,10 +9,10 @@ $(document).ready(function() {
 	})
 
 	$("#projects").click(function() {
-		$(".projects").fadeToggle()
+		$(".projects").fadeToggle(1000)
 	})
 
 	$(".fa-times").click(function() {
-		$(".projects").fadeToggle()
+		$(".projects").fadeToggle(1000)
 	})
 })
