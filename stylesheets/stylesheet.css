@@ -1,6 +1,7 @@
 body {
   background: #43B07E;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .menu {
@@ -10,7 +11,6 @@ body {
   left: 25vh;
   right: 25vh;
   background: white;
-  font-family: 'Open Sans', sans-serif;
   color: #4c4c4c;
   font-size: 150%;
   border-radius:15px;
