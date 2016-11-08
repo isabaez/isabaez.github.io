@@ -84,8 +84,8 @@ body {
 @media only screen and (max-width: 855px) { 
   .menu {
     position: absolute;
-    top: 22vh;
-    bottom: 22vh;
+    top: 17vh;
+    bottom: 17vh;
     left: 10vh;
     right: 10vh;
     background: white;
