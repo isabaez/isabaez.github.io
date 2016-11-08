@@ -18,13 +18,13 @@ body {
 }
 
 .menu>div:nth-child(1) {
-  height: 60%;
+  height: 55%;
   margin-top: 10px;
   margin-bottom: -10px;
 }
 
 .menu>div:nth-child(2) {
-  height: 40%;
+  height: 45%;
 }
 
 .pic {
@@ -48,7 +48,7 @@ body {
 .nav a, .social a {
   display: inline-block;
   text-decoration: none;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   color: #4c4c4c;
 }
 
@@ -80,7 +80,7 @@ body {
 /* #Media Queries
 ================================================== */
 
-/* Smaller than 855 */
+/* Skinnier than 855px */
 @media only screen and (max-width: 855px) { 
   .menu {
     position: absolute;
@@ -102,8 +102,29 @@ body {
   }
 }
 
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+/* Mobile view */
+@media only screen and (max-width: 420px) { 
+  .menu {
+    position: absolute;
+    top: 20vh;
+    bottom: 20vh;
+    left: 10vh;
+    right: 10vh;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4c4c;
+    font-size: 250%;
+    border-radius:15px;
+  }
+
+  .menu>div:nth-child(2) {
+    height: 45%;
+    font-size: 120%;
+  }
+}
+
+/* Shorter than 700px */
+@media only screen and (max-height: 700px) {
   
 }
 
