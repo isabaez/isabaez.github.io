@@ -7,12 +7,13 @@ $(document).ready(function() {
 	$(window).on('focus', function() {
 		document.title = "Isaias Uriel Baez";
 	})
-})
 
-$("#projects").click(function() {
-	$(".projects").toggle()
-})
+	$("#projects").click(function() {
+		$(".projects").toggle()
+		console.log('clicked')
+	})
 
-$(".fa-times").click(function() {
-	$(".projects").toggle()
+	$(".fa-times").click(function() {
+		$(".projects").toggle()
+	})
 })
