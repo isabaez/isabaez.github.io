@@ -113,10 +113,23 @@ body {
 }
 
 .projects>.container>div>.screenshot{
+  position: relative;
   display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 10px;
   width: 49%;
+}
+
+.screenshot>img {
+  width: 100%;
+}
+
+.screenshot>div{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 75%;
+  color: white;
+  background-color: black;
+  opacity: .8;
 }
 
 /* #Media Queries
