@@ -101,12 +101,13 @@ body {
 }
 
 .title {
+  text-align: center;
   font-size: 150%;
   font-weight:bold;
   margin-right: -5px;
 }
 
-.projects>.container>div {
+.projects>.container>div>.about {
   font-size: 100%;
   text-align: left;
 }
