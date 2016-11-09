@@ -24,6 +24,9 @@ $(document).ready(function() {
 			console.log("evie clicked")
 			$("#spotlight").css('height', "80%");
 			$("#spotlight").css('width', "");
+			console.log($("#spotlight").css('height'))
+			console.log($("#spotlight").css('width'))
+
 		}
 		$("#spotlight").css('height', "");
 		$("#spotlight").css('width', '80%');
