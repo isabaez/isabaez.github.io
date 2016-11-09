@@ -21,6 +21,7 @@ $(document).ready(function() {
 		$(".enlarge").fadeToggle(500)
 		$("#spotlight").attr('src', enlarge_src)
 		if (enlarge_src === "images/evie1.png" || enlarge_src === "images/evie2.png") {
+			debugger;
 			$("#spotlight").css({'height': '80%'});
 			$("#spotlight").removeProp('width');
 
