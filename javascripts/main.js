@@ -20,14 +20,6 @@ $(document).ready(function() {
 		var enlarge_src = $(elem.target).attr('src')
 		$(".enlarge").fadeToggle(500)
 		$("#spotlight").attr('src', enlarge_src)
-		if (enlarge_src === "images/evie1.png" || enlarge_src === "images/evie2.png") {
-			$("#spotlight").css('height', '80%');
-			$("#spotlight").removeProp('width');
-
-		} else {
-			$("#spotlight").css('width', '80%');
-			$("#spotlight").removeProp('height');
-		}
 	})
 
 	$(".enlarge>div>a>.fa-times").click(function() {
