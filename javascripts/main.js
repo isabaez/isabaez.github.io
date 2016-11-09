@@ -18,11 +18,11 @@ $(document).ready(function() {
 
 	$(".screenshot>a").click(function(elem) {
 		var enlarge_src = $(elem.target).attr('src')
-		$(".enlarge").fadeToggle(500)
+		$(".spotlight").fadeToggle(500)
 		$("#spotlight").attr('src', enlarge_src)
 	})
 
-	$(".enlarge>div>a>.fa-times").click(function() {
-	  	$(".enlarge").fadeToggle(500)
+	$(".spotlight>div>a>.fa-times").click(function() {
+	  	$(".spotlight").fadeToggle(500)
 	})
 })
