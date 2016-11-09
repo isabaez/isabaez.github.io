@@ -144,6 +144,11 @@ body {
   color: white;
 }
 
+.spotlight>.container {
+  padding-top: 50px;
+}
+
+
 #spotlight {
   position: absolute;
   max-width: 100%;
