@@ -94,7 +94,7 @@ body {
   overflow:scroll;
 }
 
-.container {
+.projects>.container {
   color: #43B07E;
   margin: 8vh;
   padding: 0 5vh 5vh 5vh;
