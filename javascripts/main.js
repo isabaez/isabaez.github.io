@@ -22,7 +22,7 @@ $(document).ready(function() {
 		$("#spotlight").attr('src', enlarge_src)
 	})
 
-	$(".spotlight>div>a>.fa-times").click(function() {
+	$(".spotlight>a>.fa-times").click(function() {
 	  	$(".spotlight").fadeToggle(500)
 	})
 })
