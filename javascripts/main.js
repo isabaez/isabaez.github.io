@@ -22,7 +22,11 @@ $(document).ready(function() {
 		$("#spotlight").attr('src', enlarge_src)
 		if (enlarge_src === "images/evie1.png" || enlarge_src === "images/evie2.png") {
 			console.log("evie clicked")
+			$("#spotlight").css('height', "80%");
+			$("#spotlight").css('width', "");
 		}
+		$("#spotlight").css('height', "");
+		$("#spotlight").css('width', '80%');
 	})
 
 	$(".enlarge>div>a>.fa-times").click(function() {
