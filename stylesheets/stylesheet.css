@@ -6,24 +6,21 @@ body {
 
 .menu {
   position: absolute;
-  top: 12vh;
-  bottom: 12vh;
-  left: 25vh;
-  right: 25vh;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  height: 550px;
+  transform: translate(-50%, -50%);
   background: #f9ffef;
   color: #4c4c4c;
   font-size: 150%;
-  border-radius:2px;
+  border-radius: 2px;
 }
 
 .menu>div:nth-child(1) {
-  height: 55%;
+  height: 100%;
   margin-top: 10px;
   margin-bottom: -10px;
-}
-
-.menu>div:nth-child(2) {
-  height: 45%;
 }
 
 .pic {
