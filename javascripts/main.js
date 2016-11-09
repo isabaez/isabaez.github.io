@@ -21,17 +21,10 @@ $(document).ready(function() {
 		$(".enlarge").fadeToggle(500)
 		$("#spotlight").attr('src', enlarge_src)
 		if (enlarge_src === "images/evie1.png" || enlarge_src === "images/evie2.png") {
-			console.log("evie clicked")
-			$("#spotlight").css('height', "80%");
-			$("#spotlight").css('width', "");
-			console.log($("#spotlight").css('height'))
-			console.log($("#spotlight").css('width'))
+			$("#spotlight").css({'height': '80%', 'width': ''});
 
 		} else {
-			$("#spotlight").css('width', "80%");
-			$("#spotlight").css('height', "");
-			console.log($("#spotlight").css('height'))
-			console.log($("#spotlight").css('width'))
+			$("#spotlight").css({'height': '', 'width': '80%'});
 		}
 	})
 
