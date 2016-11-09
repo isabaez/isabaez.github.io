@@ -27,9 +27,12 @@ $(document).ready(function() {
 			console.log($("#spotlight").css('height'))
 			console.log($("#spotlight").css('width'))
 
+		} else {
+			$("#spotlight").css('width', "80%");
+			$("#spotlight").css('height', "");
+			console.log($("#spotlight").css('height'))
+			console.log($("#spotlight").css('width'))
 		}
-		$("#spotlight").css('height', "");
-		$("#spotlight").css('width', '80%');
 	})
 
 	$(".enlarge>div>a>.fa-times").click(function() {
