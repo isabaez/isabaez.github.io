@@ -10,10 +10,10 @@ body {
   bottom: 12vh;
   left: 25vh;
   right: 25vh;
-  background: white;
+  background: #f9ffef;
   color: #4c4c4c;
   font-size: 150%;
-  border-radius:15px;
+  border-radius:2px;
 }
 
 .menu>div:nth-child(1) {
@@ -146,9 +146,8 @@ body {
 
 #spotlight {
   position: absolute;
-  padding-top: 8%;
-  max-width: 100%;
-  max-height: 92%;
+  max-width: 95%;
+  max-height: 95%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
