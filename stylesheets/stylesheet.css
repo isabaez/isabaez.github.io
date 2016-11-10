@@ -21,6 +21,10 @@ h3 {
   margin: 30px;
 }
 
+.link {
+  color: inherit;
+}
+
 .menu {
   position: absolute;
   top: 50%;
