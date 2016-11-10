@@ -158,85 +158,57 @@ h2 {
 /* #Media Queries
 ================================================== */
 
-/* Skinnier than 855px */
-@media only screen and (max-width: 855px) { 
-  .menu {
-    position: absolute;
-    top: 15vh;
-    bottom: 15vh;
-    left: 10vh;
-    right: 10vh;
-    background: white;
-    font-family: 'Open Sans', sans-serif;
-    color: #4c4c4c;
-    font-size: 120%;
-    border-radius:15px;
-  }
-
-  .about {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 150%;
-  }
-}
-
-/* Mobile view */
-@media only screen and (max-width: 580px) { 
-  .menu {
-    top: 10vh;
-    bottom: 10vh;
-    left: 5vh;
-    right: 5vh;
-    background: white;
-    font-size: 100%;
-  }
-
-  .nav a, .social a {
-    margin: 0 15px 15px 15px;
-    color: #4c4c4c;
-  }
-}
-
-/* Shorter than 700px */
-/*@media (orientation: landscape) {
-  .menu {
-    position: absolute;
-    top: 22vh;
-    bottom: 22vh;
-    left: 10vh;
-    right: 10vh;
-    background: white;
-    font-family: 'Open Sans', sans-serif;
-    color: #4c4c4c;
-    font-size: 120%;
-    border-radius: 15px;
-  }
-
-  .about {
+/* Width less than 560px */
+@media only screen and (max-width: 560px) { 
+  h1 {
     margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 150%;
+    margin-bottom: 5px;
+    font-size: 125%;
   }
 
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 75%;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    background: #f9ffef;
+    color: #4c4c4c;
+    font-size: 150%;
+    border-radius:2px;
+  }
+  
   .pic {
     position: relative;
     left: 50%;
-    margin-left: -100px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background-image: url(../images/profile-min.jpg);
+    transform: translate(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg);
     background-size: cover;
     background-repeat:no-repeat;
   }
-
+  
+  .menu>div:nth-child(1) {
+    height: 430px;
+    padding-top: 20px;
+  }
+  
   .nav a, .social a {
     display: inline-block;
     text-decoration: none;
-    margin: 0 20px 20px 20px;
+    margin: 0 10px 15px 10px;
     color: #4c4c4c;
   }
-}*/
+}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { }
