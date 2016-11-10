@@ -192,7 +192,7 @@ h2 {
     width: 120px;
     height: 120px;
     border-radius: 60px;
-    background-image: url(https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg);
+    background-image: url(../images/profile-min.jpg);
     background-size: cover;
     background-repeat:no-repeat;
   }
