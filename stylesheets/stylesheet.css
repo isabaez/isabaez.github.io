@@ -1,5 +1,5 @@
 body {
-  background: #43B07E;
+  background: #93eacc;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
@@ -31,7 +31,7 @@ h2 {
 
 .menu>div:nth-child(1) {
   height: 520px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .pic {
