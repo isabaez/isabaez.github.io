@@ -1,0 +1,39 @@
+<header class="Header">
+  <nav class="Header__desktop-navigation">
+    <ul class="Header__desktop-navigation-list">
+      {% for item in site.data.menu_items %}
+        <li class="Header__navigation-item">
+          <a 
+            class="Header__navigation-link"
+            href="{{ item.link }}"
+          >
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="Header__mobile">
+    <button 
+      class="Header__hamburger"
+      aria-label="Toggle Mobile Menu"
+    >      
+    </button>
+    
+    <nav class="Header__mobile-navigation">
+      <ul class="Header__mobile-navigation-list">
+        {% for item in site.data.menu_items %}
+          <li class="Header__navigation-item">
+            <a 
+              class="Header__navigation-link"
+              href="{{ item.link }}"
+            >
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
