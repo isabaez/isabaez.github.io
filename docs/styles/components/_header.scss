@@ -1,13 +1,19 @@
 .Header {
   position: sticky;
   top: 0;
-  padding: 0 24px;
-  height: 75px;
+  padding: 0 12px;
+  height: 50px;
   background: #fff;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
+    height: 75px;
     padding: 0 82px;
+    justify-content: center;
+    border-bottom: none;
   }
 
   &__desktop-navigation {
@@ -16,16 +22,8 @@
     justify-content: center;
     height: 100%;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
       display: flex;
-    }
-  }
-
-  &__mobile {
-    display: block;
-
-    @media screen and (min-width: 1024px) {
-      display: none;
     }
   }
 
@@ -41,7 +39,7 @@
     position: relative;
     text-transform: lowercase;
     text-decoration: none;
-    color: black;
+    color: #000;
 
     &::after {
       content: '';
@@ -50,7 +48,7 @@
       bottom: -2px;
       width: 0;
       height: 2px;
-      background: black;
+      background: #000;
       transition: width .3s;
     }
 
@@ -60,5 +58,70 @@
         width: 40%;
       }
     }
+  }
+
+  &__mobile {
+    display: block;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__mobile-hamburger {
+    position: relative;
+    box-sizing: content-box;
+    padding: 24px 12px;
+    height: 2px;
+    width: 30px;
+    background: #000;
+    background-clip: content-box;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: calc(50% - 9px);
+      left: 12px;
+      height: 2px;
+      width: 30px;
+      background: #000;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: calc(50% - 9px);
+      left: 12px;
+      height: 2px;
+      width: 30px;
+      background: #000;
+    }
+  }
+
+  &__mobile-navigation {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e7e7e7;
+
+    &.is-active {
+      display: flex;
+
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  &__mobile-navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 24px 24px;
   }
 }
