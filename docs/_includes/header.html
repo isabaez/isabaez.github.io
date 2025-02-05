@@ -17,18 +17,20 @@
 
   <div class="Header__mobile">
     <button 
-      class="Header__hamburger"
+      class="Header__mobile-hamburger js-mobile-nav-toggle"
       aria-label="Toggle Mobile Menu"
+      type="button"
     >      
     </button>
     
-    <nav class="Header__mobile-navigation">
+    <nav class="Header__mobile-navigation js-mobile-nav">
       <ul class="Header__mobile-navigation-list">
         {% for item in site.data.menu_items %}
           <li class="Header__navigation-item">
             <a 
-              class="Header__navigation-link"
+              class="Header__navigation-link js-nav-link js-section-link"
               href="{{ item.link }}"
+              data-scroll-target="{{ item.title | downcase }}"
             >
               {{ item.title }}
             </a>
