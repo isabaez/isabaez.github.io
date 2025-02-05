@@ -1,6 +1,8 @@
 ---
-title: Isaias Uriel Baez
-subtitle: Independent Solutions Engineer
+title: "TheShopDev"
+subtitle: "Independent Solutions Engineer"
+about_name: "Isaias Uriel Baez"
+about_description: "As a full-stack software engineer with my finger on the pulse of the e-commerce world, I specialize in crafting high-quality software solutions for businesses looking to enhance their online or administrative experience. I have had the opportunity to work with high-end D2C, hospitality, and real estate clients, delivering custom site builds, data integrations, and expert knowledge along the way. Whether leading development teams or consulting as an independent solutions engineer, I am passionate about efficiency, communication, and helping business owners do more with less."
 layout: default
 ---
 
@@ -12,7 +14,10 @@ layout: default
         subtitle=page.subtitle
       %}
     {% when 'About' %}
-      {% include about.html %}
+      {% include about.html 
+        name=page.about_name
+        description=page.about_description
+      %}
     {% when 'Projects' %}
       {% include projects.html %}
     {% when 'Contact' %}

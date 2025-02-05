@@ -2,24 +2,32 @@
 ---
 
 @charset 'UTF-8';
+@import 'animations';
 @import 'header';
 @import 'home';
 @import 'about';
+@import 'featured-skill-card';
 @import 'projects';
 @import 'contact';
 @import 'footer';
 
-h1,
-h2,
-h3, 
-h4, 
-h5, 
-h6 {
+
+* {
+  box-sizing: border-box;
+}
+
+.h1,
+.h2,
+.h3, 
+.h4, 
+.h5, 
+.h6 {
   font-family: {{ site.header_font }}, {{ site.fallback_font }};
 }
 
 body {
   font-family: {{ site.body_font }}, {{ site.fallback_font }};
+  font-size: 14px;
 }
 
 li {
@@ -27,10 +35,22 @@ li {
 }
 
 section {
-  height: calc(100vh - 75px);
+  min-height: calc(100vh - 150px);
   border-bottom: 1px solid #e7e7e7;
+  padding: 24px;
+
+  @media screen and (min-width: 1024px) {
+    padding: 82px;
+  }
 
   &:last-of-type {
     border: none;
   }
 }
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+}
+

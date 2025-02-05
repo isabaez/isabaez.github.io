@@ -1,4 +1,15 @@
-<section class="Home">
-  <h1 class="Home__header">{{ include.title }}</h1>
+<section 
+  class="Home"
+  id="home"
+>
+  <h1 class="Home__header h1">{{ include.title }}</h1>
   <p class="Home__subheader">{{ include.subtitle }}</p>
+  <a 
+    class="Home__explore-btn Animation--bounce js-section-link"
+    aria-label="Read more"
+    href="#about"
+    data-scroll-target="about"
+  >
+    {% include arrow-down-svg.html %}
+  </a>
 </section>

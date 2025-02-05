@@ -1,3 +1,71 @@
-<section class="About">
-  
+<section 
+  class="About"
+  id="about"
+>
+  <h2 class="About__header">
+    about me
+  </h2>
+
+  <div class="About__info">
+    <div class="About__headshot">
+      <img 
+        class=""
+        src="{{ '/assets/headshot.jpg' | relative_url }}"
+        alt="Isaias Uriel Baez talking on the phone while wearing a suit and tie."
+      >
+    </div>
+    <div class="About__details">
+      <div class="About__details-header">
+        {{ include.name }}
+      </div>
+      <div class="About__details-description">
+        {{ include.description }}
+      </div>
+    </div>
+  </div>
+  <div class="About__featured-skills">
+    {% assign featured_skills = site.data.skills | where: "type", "featured" %}
+    {% for skill in featured_skills %}
+      {% include featured-skill-card.html
+        name=skill.name
+        details=skill.details
+        icon=skill.icon
+      %}
+    {% endfor %}
+  </div>
+  <div class="About__other-skills">
+    <div class="About__other-skills-column">
+      <h3 class="About__other-skills-header">
+        I have expert-level knowledge of
+      </h3>
+      <ul class="About__other-skills-list">
+        {% assign expertise_skills = site.data.skills | where: "type", "expertise" %}
+        {% for skill in expertise_skills %}
+          <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="About__other-skills-column">
+      <h3 class="About__other-skills-header">
+        I've had experiences with
+      </h3>
+      <ul class="About__other-skills-list">
+        {% assign experience_skills = site.data.skills | where: "type", "experience" %}
+        {% for skill in experience_skills %}
+          <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="About__other-skills-column">
+      <h3 class="About__other-skills-header">
+        I am actively learning about
+      </h3>
+      <ul class="About__other-skills-list">
+        {% assign learning_skills = site.data.skills | where: "type", "learning" %}
+        {% for skill in learning_skills %}
+          <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </section>
