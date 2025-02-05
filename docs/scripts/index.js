@@ -20,6 +20,7 @@ class Portfolio {
 
     this.state = {
       mobileNavActive: false,
+      escapeKeyHandler: this.onKeydown.bind(this)
     }
 
     this.mount();
@@ -40,7 +41,11 @@ class Portfolio {
     const { dom } = this;
     console.log('init portfolio');
 
-    dom.$sectionLinks[0].classList.add('is-active')
+    [...dom.$navLinks].forEach(($navLink) => {
+      if ($navLink.dataset.scrollTarget === 'home') {
+        $navLink.classList.add('is-active')
+      }
+    })
   }
 
   onMobileNavToggleClick(e) {
@@ -57,15 +62,27 @@ class Portfolio {
   closeMobileNav() {
     const { dom, state } = this;
 
+    dom.$mobileNavToggle.classList.remove('is-active');
     dom.$mobileNav.classList.remove('is-active');
     state.mobileNavActive = false;
+
+    document.removeEventListener('keydown', state.escapeKeyHandler)
   }
 
   openMobileNav() {
     const { dom, state } = this;
 
+    dom.$mobileNavToggle.classList.add('is-active');
     dom.$mobileNav.classList.add('is-active');
     state.mobileNavActive = true;
+
+    document.addEventListener('keydown', state.escapeKeyHandler)
+  }
+
+  onKeydown({ key }) {
+    if (key === "Escape") {
+      this.closeMobileNav();
+    }
   }
 
   onSectionLinkClick(e) {
@@ -73,10 +90,14 @@ class Portfolio {
     const { scrollTarget } = e.currentTarget.dataset
 
     if(e.currentTarget.classList.contains(refs.navLink)) {
+
       [...dom.$navLinks].forEach(($navLink) => {
         $navLink.classList.remove('is-active');
+
+        if ($navLink.dataset.scrollTarget === scrollTarget) {
+          $navLink.classList.add('is-active')
+        }
       })
-      e.currentTarget.classList.add('is-active')
 
       this.closeMobileNav();
     }
