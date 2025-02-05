@@ -1,0 +1,28 @@
+.Home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__header {
+    margin: 0;
+  }
+
+  &__subheader {
+    margin: 18px 0 0;
+  }
+
+  &__explore-btn {
+    position: absolute;
+    bottom: 0;
+    width: 36px;
+    height: auto;
+    cursor: pointer;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

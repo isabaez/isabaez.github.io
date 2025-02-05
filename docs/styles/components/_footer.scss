@@ -1,0 +1,10 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  background: #E7E7E748;
+  padding: 24px;
+
+  @media screen and (min-width: 1024px) {
+    padding: 82px 82px 12px;
+  }
+}

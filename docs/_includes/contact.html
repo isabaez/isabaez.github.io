@@ -1,0 +1,24 @@
+<section 
+  class="Contact"
+  id="contact"
+>
+  <h2 class="Contact__header">
+    contact me
+  </h2>
+  <div class="Contact__socials">
+    <ul class="Contact__socials-list">
+      {% for social in site.data.socials %}
+        <li class="Contact__social-item">
+          <a 
+            class="Contact__social-link"
+            href="{{ social.url }}"
+            aria-label="Contact me through {{ social.title }}"
+            target="_blank"
+          >
+            {{ social.icon }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

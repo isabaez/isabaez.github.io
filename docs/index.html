@@ -1,106 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+title: "TheShopDev"
+subtitle: "Independent Solutions Engineer"
+about_name: "Isaias Uriel Baez"
+about_description: "As a full-stack software engineer with my finger on the pulse of the e-commerce world, I specialize in crafting high-quality software solutions for businesses looking to enhance their online or administrative experience. I have had the opportunity to work with high-end D2C, hospitality, and real estate clients, delivering custom site builds, data integrations, and expert knowledge along the way. Whether leading development teams or consulting as an independent solutions engineer, I am passionate about efficiency, communication, and helping business owners do more with less."
+layout: default
+---
 
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-
-        <!-- FONTS -->
-
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
-
-
-        <title>Isaias Uriel Baez's Portfolio</title>
-    </head>
-    <body>
-        <div class="menu">
-            <div>
-              <div class="pic">
-              </div>
-              <h1>Isaias Uriel Baez</h1>
-              <h2>Full Stack Software Engineer</h2>
-              <div class="nav">
-                <a href="#" id="projects">
-                  <i class="fa fa-folder-open hvr-float" aria-hidden="true"></i>
-                  <h2>Projects</h2>
-                </a>
-                <a href="https://github.com/isabaez" target="_blank">
-                  <i class="fa fa-github hvr-float" aria-hidden="true"></i>
-                  <h2>Code</h2>
-                </a>
-                <a href="resume.pdf" target="_blank">
-                    <i class="fa fa-file-text hvr-float" aria-hidden="true"></i>
-                    <h2>Resume</h2>
-                  </a>
-              </div>
-              <div class="social">
-                <a href="mailto:iubaez@icloud.com"><i class="fa fa-envelope hvr-float" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/iubaez" target="_blank"><i class="fa fa-facebook-square hvr-float" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/Uriel_Baez" target="_blank"><i class="fa fa-twitter-square hvr-float" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/uriel_baez/" target="_blank"><i class="fa fa-instagram hvr-float" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/iubaez" target="_blank"><i class="fa fa-linkedin-square hvr-float" aria-hidden="true"></i></a>
-              </div>
-            </div>
-        </div>
-        <div class="projects" style="display:none;">
-            <div>
-                <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-            </div>
-            <div class="container">
-                <div class="title">
-                    <h1>My Projects<h1>
-                </div>
-                <div>
-                    <div>
-                        <h3><li><a class="link" href="https://vetit.herokuapp.com" target="_blank">Vet It</a> - A social network for military veterans to find and review jobs and educational experiences.</li></h3>
-                    </div>
-                    <div class="screenshot">
-                        <a href="#"><img src="images/vetit1.png"></a>
-                        <div>
-                            Click to enlarge
-                            <i class="fa fa-search-plus" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                    <div class="screenshot">
-                        <a href="#"><img src="images/vetit2.png"></a>
-                        <div>
-                            Click to enlarge
-                            <i class="fa fa-search-plus" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <h3><li><a class="link" href="https://evie.herokuapp.com" target="_blank">Evie</a> - A real-time event-planning app for friend groups trying to go out.</li></h3>
-                    </div>
-                    <div class="screenshot">
-                        <a href="#"><img src="images/evie1.png"></a>
-                        <div>
-                            Click to enlarge
-                            <i class="fa fa-search-plus" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                    <div class="screenshot">
-                        <a href="#"><img src="images/evie2.png"></a>
-                        <div>
-                            Click to enlarge
-                            <i class="fa fa-search-plus" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="spotlight" style="display:none;">
-            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-            <img id="spotlight">
-        </div>
-    </body>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <script type="text/javascript" src="javascripts/main.js"></script>
-</html>
+{% for item in site.data.menu_items %}
+  {% case item.title %}
+    {% when 'Home' %}
+      {% include home.html 
+        title=page.title 
+        subtitle=page.subtitle
+      %}
+    {% when 'About' %}
+      {% include about.html 
+        name=page.about_name
+        description=page.about_description
+      %}
+    {% when 'Projects' %}
+      {% include projects.html %}
+    {% when 'Contact' %}
+      {% include contact.html %}
+  {% endcase %}
+{% endfor %}

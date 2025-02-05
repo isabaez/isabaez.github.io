@@ -1,0 +1,50 @@
+.Contact {
+  &__header {
+    position: relative;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 80px;
+    text-align: center;
+
+    &::after  {
+      content: '';
+      position: absolute;
+      top: calc(100% + 12px);
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90px;
+      height: 7px;
+      background: black;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__socials-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__social-item {
+
+  }
+
+  &__social-link {
+    display: block;
+    min-height: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
