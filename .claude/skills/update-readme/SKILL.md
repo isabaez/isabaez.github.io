@@ -90,3 +90,4 @@ propose adding it.
 <!-- Filled in by /init-project. README size and whether audits fan out; which existing sections map to the four required parts; sections tied to code (e.g. a setup section that must match service files); numbers or counts that must stay current. Facts only; nothing sensitive in a public repo. -->
 - No root README yet; `docs/README.md` is a two-line stub that Jekyll does not publish as a page.
 - The local preview steps must match the root `Gemfile` (the `github-pages` gem) and `docs/_config.yml`.
+- Root README.md is about 4 KB (audits don't fan out). The four parts: the intro (top), Getting it running locally, Directory layout, Working with Claude Code.
