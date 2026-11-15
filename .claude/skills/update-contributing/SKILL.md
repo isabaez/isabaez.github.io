@@ -71,3 +71,4 @@ propose adding it.
 <!-- Filled in by /init-project. The QA branch's name and anything to restart after merging into it; where deploy steps are documented; the pre-PR checks and which of them need a running service. Facts only; nothing sensitive in a public repo. -->
 - QA branch `beta`. GitHub Pages builds only `master:/docs`, so nothing deploys `beta` and nothing needs restarting after merging into it; preview locally with Jekyll instead.
 - Deploying = merging `develop` into `master` (the `[ production deploy ]` PR); GitHub Pages rebuilds the live site from `master:/docs`.
+- Deploy steps are documented in CONTRIBUTING.md › Releasing this project and CLAUDE.md › Deployment. Pre-PR check: a local `jekyll serve` preview (needs gems and network); no tests or linters.
