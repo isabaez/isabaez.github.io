@@ -4,3 +4,8 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
+.DS_Store
+
+# Claude Code
+.claude/settings.local.json
+.claude/worktrees/
