@@ -127,6 +127,6 @@ propose adding it.
 <!-- Filled in by /init-project. The CM path; the stack and the official docs used (with the date checked); the rules files and what each covers; the line budget; convention exceptions the dev approved. Facts only; nothing sensitive in a public repo. -->
 - CLAUDE.md lives at the repo root.
 - Stack: a Jekyll site in `docs/` (SCSS in `docs/styles/`, Liquid includes and layouts, one plain JS file `docs/scripts/index.js`), built by GitHub Pages' legacy builder (the `github-pages` gem, declared in the root `Gemfile`). No package.json, no tests.
-- Rules files: `.claude/rules/jekyll.md` (Pages versions, plugins, includes, data files), `scss.md` (front matter, `@import` on Pages' Ruby Sass, reduced motion), `accessibility.md` (the mobile nav disclosure, smooth scroll); official sources checked 2026-11-15. `git-workflow.md` is managed by /init-project.
+- Rules files: `.claude/rules/jekyll.md` (Pages versions, plugins, includes, data files), `scss.md` (front matter, `@import` on Pages' Ruby Sass, reduced motion), `accessibility.md` (the mobile nav disclosure, smooth scroll); official sources checked 2026-11-15. `git-workflow.md` and `security.md` are managed by /init-project.
 - Line budget: CLAUDE.md under about 200 lines (171 at setup).
 - Convention exceptions: none. Existing PascalCase BEM blocks are legacy; new code follows the conventions block.

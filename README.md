@@ -59,6 +59,7 @@ Claude follows here; [CONTRIBUTING.md](CONTRIBUTING.md) describes the same workf
 - `jekyll.md`: GitHub Pages' Jekyll version and plugins, includes and data files.
 - `scss.md`: Sass on GitHub Pages (front matter, `@import`, reduced motion).
 - `accessibility.md`: the mobile menu's disclosure pattern and smooth scrolling.
+- `security.md`: security rules for every change (secrets, dependencies, workflows, what a public repo may contain).
 - `git-workflow.md`: the full git workflow, loaded in every session.
 
 **Hooks:** a git guard blocks the git and gh commands the workflow never allows (merging into `develop` or
