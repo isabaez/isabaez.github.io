@@ -124,3 +124,4 @@ dev: merge the changelog PR, then open the `[ production deploy ]` PR. If you ha
 - Production branch `master` (GitHub Pages builds the site from `master:/docs` on every push to it); QA branch `beta`. Public repo.
 - History: about 240 direct pushes to `master` (2016–2025, most from 2016) and only two PRs: #2 "[ production deploy ]" (portfolio refresh, 2025-02-05) and #4 (mobile responsiveness, 2025-02-05). Every push to `master` was a deploy.
 - `feature/<n>` branch numbers in old history don't always match the issue they closed (`feature/2-…` closed issue #3), so take issue numbers from the PR body or GitHub, not the branch name.
+- Backfilled at setup (2026-11-15): 19 releases from 2016-09-13 to 2025-02-05, one per day that reached `master`. Left out on purpose: 165 small 2016 styling commits, the 2018 title-period toggles (ecf9a13, b4ee53a, 9c30f30) and the 2025 `.gitignore` commit (942f1b4). PR #4's branch says `feature/2` but it closed issue #3.
